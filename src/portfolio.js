@@ -9,7 +9,7 @@ const about = {
   name: 'Marinn Cedillo',
   role: 'Software Engineer',
   description:
-    'A recent graduate from Wellesley College, I studied Media Arts and Sciences, (a fancy name for Computer Science and Media Studies) with a minor in Education. Currently based in Sunnyvale, CA.',
+    'A recent graduate from Wellesley College, I studied Media Arts and Sciences (a fancy name for Computer Science and Media Studies) with a minor in Education. Currently based in Sunnyvale, CA.',
   // resume: 'https://example.com',
   social: {
     linkedin: 'https://linkedin.com/in/marinn-cedillo',
@@ -20,29 +20,29 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+  // {
+  //   name: 'Tic Tac Toe',
+  //   description:
+  //     'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+  //   stack: ['Javascript'],
+  //   sourceCode: 'https://github.com',
+  //   livePreview: 'https://github.com',
+  // },
   {
-    name: 'Project 1',
+    name: 'ReFresh',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Redesign of the Wellesley College online menu to improve community and accessibility.',
+    stack: ['JavaScript', 'HTML', 'CSS'],
+    sourceCode: 'https://github.com/marinn17/refresh_prototype',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'Ambi',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Ambi is a tangible user interface meant to keep track of the emotional state of the user and increase social connectedness without the use of a screen.',
+    stack: ['C++', 'Arduino'],
+    sourceCode: 'https://github.com/sbarlow2/ambi',
+    livePreview: 'https://sbarlow2.github.io/ambi/',
   },
 ]
 
